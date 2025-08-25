@@ -1024,7 +1024,6 @@ function App() {
               className="max-w-none shadow-2xl transition-transform duration-200"
               style={{ 
                 imageRendering: 'high-quality',
-                imageRendering: '-webkit-optimize-contrast',
                 transform: `scale(${zoomLevel}) translate(${imagePosition.x / zoomLevel}px, ${imagePosition.y / zoomLevel}px)`,
                 cursor: zoomLevel > 1 ? (isDragging ? 'grabbing' : 'grab') : 'zoom-in'
               }}
