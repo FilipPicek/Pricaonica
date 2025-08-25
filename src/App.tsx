@@ -717,7 +717,7 @@ function App() {
                   >
                     <div className="p-2">
                       <img
-                        src={`/${imageName}`}
+                        src={imageName}
                         alt={`Galerija slika ${index + 1}`}
                         className="w-full h-32 md:h-40 object-cover group-hover:scale-110 transition-transform duration-500 rounded-xl"
                         loading="lazy"
@@ -1019,7 +1019,7 @@ function App() {
           {/* Main image */}
           <div className="relative w-full h-full flex items-center justify-center overflow-hidden">
             <img
-              src={`/${galleryImages[selectedImageIndex]}`}
+              src={galleryImages[selectedImageIndex]}
               alt={`Galerija slika ${selectedImageIndex + 1}`}
               className="max-w-none shadow-2xl transition-transform duration-200"
               style={{ 
